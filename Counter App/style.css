@@ -1,32 +1,38 @@
+/* Basic body styling with padding and background color */
 body {
   font-family: Arial, sans-serif;
   text-align: center;
   background-color: #f4f4f4;
-  padding-top: 100px;
+  padding-top: 100px; /* Pushes the content down from the top */
 }
 
+/* Container that holds the counter UI */
 .container {
   background-color: white;
   display: inline-block;
   padding: 40px;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Soft shadow for depth */
 }
 
+/* Main heading styling */
 h1 {
   font-size: 3rem;
   margin-bottom: 10px;
 }
 
+/* Counter value display */
 #value {
   font-size: 4rem;
   color: #333;
 }
 
+/* Spacing around the button group */
 .button-group {
   margin-top: 20px;
 }
 
+/* Common button styling */
 .btn {
   padding: 10px 20px;
   margin: 0 10px;
@@ -34,18 +40,21 @@ h1 {
   border: none;
   cursor: pointer;
   border-radius: 5px;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease; /* Smooth hover effect */
 }
 
+/* Decrease button - red */
 .decrease {
   background-color: #ff4d4d;
   color: white;
 }
 
+/* Reset button - neutral gray */
 .reset {
   background-color: #ccc;
 }
 
+/* Increase button - green */
 .increase {
   background-color: #4CAF50;
   color: white;

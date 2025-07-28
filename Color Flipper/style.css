@@ -1,20 +1,24 @@
+/* Basic body styling and smooth background color transition */
 body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease; /* Smooth background color change */
 }
 
+/* Center-align content and position it vertically using margin */
 .container {
   text-align: center;
-  margin-top: 20vh;
+  margin-top: 20vh; /* Push content 20% down from the top of the viewport */
 }
 
+/* Style the heading */
 h3 {
   font-size: 2.5rem;
   color: #333;
 }
 
+/* Style the button for changing background color */
 button {
   padding: 12px 25px;
   font-size: 18px;
@@ -23,13 +27,15 @@ button {
   color: white;
   border: none;
   border-radius: 6px;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease; /* Smooth hover effect */
 }
 
+/* Darken button background on hover */
 button:hover {
   background-color: #555;
 }
 
+/* Display the current color name with emphasis */
 #colorName {
   margin-top: 20px;
   font-size: 20px;

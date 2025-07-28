@@ -2,8 +2,8 @@
 //background colors
 const colors = [
 "lightblue", "salmon", "lightgreen",
-"orange", "violet", "beige",
-"khaki", "tomato", "skyblue", "gold"
+"orange", "violet", "beige", 
+"tomato", "skyblue", "gold"
 ];
 
 // get button and colorDisplay element
