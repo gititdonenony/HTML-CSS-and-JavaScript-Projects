@@ -12,15 +12,20 @@ buttons.forEach(btn => {
     if (value === "C") {
       expression = 0;
 
-    // Evaluate the expression
+      // Evaluate the expression
     } else if (value === "=") {
       try {
-        expression = eval(expression).toString();
+        const result = eval(expression);
+        if (!isFinite(result)) {
+          expression = "Error";
+        } else {
+          expression = result.toString();
+        }
       } catch {
         expression = "Error";
       }
 
-    // Append number or operator
+      // Append number or operator
     } else {
       expression += value;
     }
